@@ -1,0 +1,19 @@
+{
+  "name": "websocket",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "server": "ts-node ./webSocketServer.ts"
+  },
+  "author": "Howard Hung",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ts-node": "^0.9.3",
+    "ws": "^8.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.6.1",
+    "typescript": "^4.3.5"
+  }
+}
